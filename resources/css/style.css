@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+ body {
+     font-size: 62.5%;
+     font-family: 'Titillium Web', sans-serif;
+
+}
+h1 {
+    font-size: 7em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 5em;
+    color: #000;
+    text-transform: capitalize;
+} 
+
+p {
+    color: rgb(82, 80, 80);
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+    display: inline;
+}
+section {
+    padding: 5% 0;
+}
+
+/* common css */
+
+.sec-title {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.sec-title i {
+    font-size: 2em;
+    padding: 1em 0;
+}
+/* header section*/
+.header-sec {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.856)), url(img/blog.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.navbar {
+    border-bottom: 1px solid#000;
+}
+.navbar ul li a {
+    font-size: 1.5em;
+    padding: 0 2em;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li a:hover {
+    text-decoration: none;
+}
+
+
+.logo {
+    font-size: 4em;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.navbar-brand {
+    font-size: 3em;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.logo a:hover {
+    text-decoration: none;
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.header-title ul li a {
+    padding: 1em;
+    color: #fff;
+    font-size: 1.5em;
+
+}
+.header-title ul li a:hover {
+    text-decoration: none;
+}
+.header-title ul li a i {
+	border-radius: 50%;
+	padding: 1em;
+	border: 1px solid #fff;
+	font-size: 1em;
+	
+}
+
+.header-title ul li a i:hover{
+    transform: rotate(360deg);
+    transition: .5s;
+}
+
+/*about section*/
+
+.about-sec {
+    background: #fff;
+    text-align: center;
+}
+.about-info {
+    text-align: center;
+
+}
+.about-info h3 {
+    color: black;
+    font-weight: 600;
+}
+.about-info ul li {
+    font-size: 2em;
+    padding: .5em;
+    text-transform: capitalize;
+}
+svg.radial-progress circle {
+    stroke-width: 8;
+    stroke: #000;
+}
+
+.service-sec {
+    background: rgb(177, 177, 177);
+}
+
+
+.freelancer-sec {
+    background: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)), url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.freelancer-sec h2 {
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.blog-sec {
+    background: rgb(177, 177, 177);
+}
+
+
+.contact-sec .msg-height input {
+    height: 10em;
+}
+
+
+/*data-target="#navbarSupportedContent"
